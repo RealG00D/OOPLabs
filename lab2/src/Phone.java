@@ -1,14 +1,14 @@
 public class Phone {
-    private int id;
+    private long id;
     private String lastName;
     private String firstName;
     private String patronymic;
     private String accountNumber;
-    private int cityCallDuration;
-    private int intercityCallDuration;
+    private Integer cityCallDuration;
+    private Integer intercityCallDuration;
 
-    public Phone(int id, String lastName, String firstName, String patronymic, String accountNumber,
-                 int cityCallDuration, int intercityCallDuration) {
+    public Phone(long id, String lastName, String firstName, String patronymic, String accountNumber,
+                 Integer cityCallDuration, Integer intercityCallDuration) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -18,11 +18,11 @@ public class Phone {
         this.intercityCallDuration = intercityCallDuration;
     }
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -58,19 +58,19 @@ public class Phone {
         this.accountNumber = accountNumber;
     }
 
-    public int getCityCallDuration() {
+    public Integer getCityCallDuration() {
         return cityCallDuration;
     }
 
-    public void setCityCallDuration(int cityCallDuration) {
+    public void setCityCallDuration(Integer cityCallDuration) {
         this.cityCallDuration = cityCallDuration;
     }
 
-    public int getIntercityCallDuration() {
+    public Integer getIntercityCallDuration() {
         return intercityCallDuration;
     }
 
-    public void setIntercityCallDuration(int intercityCallDuration) {
+    public void setIntercityCallDuration(Integer intercityCallDuration) {
         this.intercityCallDuration = intercityCallDuration;
     }
 
